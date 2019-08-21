@@ -2,13 +2,220 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+ <link rel="stylesheet" href="css/style.css">
+    <title>Kasia Wypychewicz</title>
   </head>
   <body>
 
-    <p>
-      hello
-    </p>
+
+
+    <header>
+      <section class="section has-background-link">
+        <div class="container">
+
+          <h1 class="title">
+
+          Kasia Wypychewicz – portfolio</h1>
+        </div>
+    </section>
+    <nav class="navbar is-link" role="navigation" aria-label="main navigation">
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    <span aria-hidden="true"></span>
+    </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-end">
+
+<div class="navbar-item">
+    <a class="alink" href="https://www.linkedin.com/in/kasia-wypychewicz/" target="_blank" rel="noopener noreferrer" >LinkedIn</a>
+  </div>
+<div class="navbar-item">
+      <a class="alink"href="https://github.com/kasiaaguti/SEI-project2-" id="github-icon" target="_blank">GitHub</a>
+</div>
+
+    </div>
+    </nav>
+  </div>
+
+
+
+    </header>
+
+    <div class="box">
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-64x64">
+            <img class="profile" src="images/kasia.jpg" alt="myphoto">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>About me</strong>
+              <br>
+            Driven and enthusiastic junior software engineer with business background. Passionate about technology, including JavaScript, Python and SQL. Looking to join a group of like-minded individuals and work on impactful and exciting projects
+            </p>
+            <small>kasia.aguti@gmail.com</small>
+          </div>
+          <nav class="level is-mobile">
+            <div class="level-left">
+              <a class="level-item" aria-label="reply">
+                <span class="icon is-small">
+                  <i class="fas fa-reply" aria-hidden="true"></i>
+                </span>
+              </a>
+              <a class="level-item" aria-label="retweet">
+                <span class="icon is-small">
+                  <i class="fas fa-retweet" aria-hidden="true"></i>
+                </span>
+              </a>
+              <a class="level-item" aria-label="like">
+                <span class="icon is-small">
+                  <i class="fas fa-heart" aria-hidden="true"></i>
+                </span>
+              </a>
+            </div>
+          </nav>
+        </div>
+      </article>
+    </div>
+
+
+
+
+  <div class="column is-three-quarters">
+
+            <section>
+
+              <h1 class="title">Power Engineering Hub</h1>
+
+              <div>
+              <img class="img" src="images/power.png" alt="tetris">
+              </div>
+              <div>
+
+​<h2 class="title is-4">Timeframe & Team</h2>
+1 week, solo
+​<h2 class="title is-4">Built With</h2>
+
+<div class="list">
+  <a class="list-item">
+    PostgreSQL
+  </a>
+  <a class="list-item">
+    Python
+  </a>
+  <a class="list-item is-active">
+    Insomnia
+  </a>
+  <a class="list-item">
+    React
+  </a>
+  <a class="list-item">
+    Axios
+  </a>
+  <a class="list-item">
+    Webpack
+  </a>
+  <a class="list-item">
+     Bulma
+  </a>
+  <a class="list-item">
+    Heroku
+  </a>
+</div>
+
+​<h2 class="title is-4">Deployment</h2>
+This website is deployed on Heroku and it can be found here:
+  <a href="https://powerengineering.herokuapp.com/" target="_blank">Power Engineering Hub</a>
+
+<h2 class="title is-4">Description</h2>
+
+It is a hub for Power Engineering Industry in Poland. It has features similar to LinkedIn where login users can create profiles to connect with each other and with companies.
+I used Mapbox to show the locations of all companies listed on the website. As Mapbox doesn’t use addresses, but only geographical coordinates I added latitude and longitude for all companies while creating a seed file. It wouldn’t be user friendly to  ask our users to do the same when adding their companies, so I used mapbox function which allows to convert new addresses into geographic coordinates.
+Thanks to newsapi.org public API this website can provide newest sector related information.
+The most rewarding part of this exercise was to see again how quickly React allows to render my database
+
+<h2 class="title is-4">Challenges </h2>
+
+It was challenging to do the whole full-stack project myself in only one week, but also allowed me to get to know all parts of the process.
+
+<h2 class="title is-4">Future improvements </h2>
+
+Next stage of developing this website would be adding private messages functionality.
+
+
+
+            </div>
+            </section>
+
+
+        </div>
+
+<hr />
+
+  <div class="column is-three-quarters">
+
+            <section>
+
+              <div>
+              <h1 class="title">Tetris in vanilla JS</h1>
+              <div class="level-left">
+              <img class="img" src="images/tetris.png" alt="tetris">
+              </div>
+<h2 class="title is-4">Timeframe & Team</h2>
+              ​
+              7 days, solo
+              ​
+<h2 class="title is-4">Build with</h2>
+              HTML5
+              CSS3
+              JavaScript - ECMAScript
+              Git
+              GitHub
+<h2 class="title is-4">Deployment</h2>
+              ​
+              <a href="https://kasiaaguti.github.io/sei-project-1/" target="_blank">Click here to play Tetris</a>
+              ​
+<h2 class="title is-4">Logic</h2>
+              Tetris is a puzzle game where the player has to fit different shaped blocks (called Tetriminos) together so that they make a complete line across the playing board. Once a line is achieved it is removed from the game board and the player's score is increased.
+
+              The player can move the Tetriminos left and right and rotate them clockwise in 90º increments.
+
+              The aim of the game is to get as many points as possible before the game board is filled with Tetriminos.
+
+<h2 class="title is-4">Challenges</h2>
+
+              The larges challenge was the rotation of the Tetriminos. Each one rotates around a specific point on its axis. Also some Tetriminos, particularly the long bar, create problems issues when turning next to the walls of the game board. Furthermore, once a line has been made, the blocks above have to all shift down a row to fill the space, which requires a good amount of recursion.
+
+
+
+
+
+
+
+
+
+
+    </div>
+            </section>
+
+
+        </div>
+
+
+</section>
+
+
+
+
+
+
 
   </body>
 </html>

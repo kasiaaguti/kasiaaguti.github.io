@@ -21,6 +21,8 @@ class Map extends React.Component {
       zoom: 1
     })
 
+       this.map.scrollZoom.disable()
+
 
 
     this.map.on('click', this.props.onClick)

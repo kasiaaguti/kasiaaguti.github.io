@@ -26,7 +26,7 @@ class NavBar extends React.Component {
   render() {
     return (
       <section>
-        <nav className="navbar lightblue" role="navigation" aria-label="main navigation">
+        <nav className="navbar cream" role="navigation" aria-label="main navigation">
           <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>

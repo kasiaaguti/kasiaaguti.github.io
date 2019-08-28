@@ -32,7 +32,12 @@
   width: 300px;
 }
 
-#about
+// #about
+
+.construction {
+  background-color:  #E07854;
+
+}
 
 .cafe {
   background-color: #526C5A;
@@ -48,24 +53,56 @@
 
 }
 
-
-
-.cafe {
-  background-color: #526C5A;
-}
-
-.construction {
-  background-color:  #E07854;
-
-}
-
-
 .background {
   background-color: #EFE7DC;
 }
+
 
 .aboutbody {
   color: #101929;
   padding-top: 30px;
   background-color: #EFE7DC;
+
+}
+// navbar
+.cream {
+background-color: #EFE7DC;
+}
+
+// Projects
+
+.margins {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+
+}
+
+// home
+.home {
+  display: flex;
+  background-color: #9BC0D6;
+  margin: 200px 0;
+  padding: 50px;
+}
+
+
+.myimg {
+  display: block;
+  float: left;
+  width: 300px;
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+
+  .margins {
+    display: inline-block;
+
+  }
+
+
+
 }

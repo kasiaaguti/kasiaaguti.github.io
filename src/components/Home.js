@@ -2,22 +2,28 @@ import React from 'react'
 
 
 const Home = () => (
-  <section className="hero is-fullheight-with-navbar">
-    <div className="hero-body">
-      <div className="container-custom">
-        <p className="title is-2 has-text-white has-text-left">
-         “Choose a job that you like, <br />
-         and you will never <br />
-         have to work a day in your life.”
-        </p>
-        <p className="subtitle is-4 has-text-white has-text-left">
-           – Confucius
-        </p>
 
-      </div>
-    </div>
+    <section className="background aboutbody">
 
-  </section>
+  <div className="home">
+        <div className="content">
+          <figure className="image myimg">
+            <img src="../assets/kasia.jpg" />
+          </figure>
+
+    <div className="metext">
+          <p className="title">Kasia Wypychewicz</p>
+          <p className="subtitle">Junior software engineer with business background. Passionate about technology, including JavaScript, Python and SQL. Looking to join a group of like-minded individuals and work on impactful and exciting projects.</p>
+
+          <div className="content">
+
+          </div>
+
+        </div>
+        </div>
+  </div>
+
+</section>
 )
 
 

@@ -1,10 +1,40 @@
 import React from 'react'
 
-
+import Places from './Places'
+import Projects from './Projects'
 
 const About = () => (
+
   <section className="background aboutbody">
-    <div className="tile is-ancestor">
+
+<section className="home">
+      <div className="content">
+        <figure className="image myimg">
+          <img src="../assets/kasia.jpg" />
+        </figure>
+
+  <div className="metext">
+        <p className="title">Kasia Wypychewicz</p>
+        <p className="subtitle">Junior software engineer with business background.
+
+        Passionate about technology, including JavaScript, Python and SQL.
+
+      Looking to join a group of like-minded individuals and work on impactful and exciting projects.</p>
+
+        <div className="content">
+
+        </div>
+
+      </div>
+      </div>
+</section>
+
+<h1 className="title is-1">My projects</h1>
+<Projects  />
+
+<h1 className="title is-1">About me</h1>
+  <section>
+    <div className="tile is-ancestor margins">
 
       <div className="tile is-parent">
         <article className="tile is-child notification construction">
@@ -50,18 +80,15 @@ const About = () => (
             </article>
           </div>
         </div>
-        <div className="tile is-parent">
-          <article className="tile is-child notification is-danger">
-            <p className="title">Wide tile</p>
-            <p className="subtitle">Aligned with the right tile</p>
-            <div className="content">
 
-            </div>
-          </article>
-        </div>
       </div>
 
     </div>
+
+  </section>
+
+<h1 className="title is-1">My travels</h1>
+<Places />
 
   </section>
 )

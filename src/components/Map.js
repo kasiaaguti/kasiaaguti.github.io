@@ -20,22 +20,25 @@ class Map extends React.Component {
       center: this.props.center,
       zoom: 1
     })
-
-       this.map.scrollZoom.disable()
-
-
-
-    this.map.on('click', this.props.onClick)
-  }
-
-  componentDidUpdate() {
     this.markers.forEach(marker => marker.remove())
     this.markers = this.props.markers.map(point => {
-      return new mapboxgl.Marker()
+      // create custom popups one for each marker
+      const el = document.createElement('div')
+      el.className = 'marker'
+      el.textContent='HELLO'
 
+      // console.log(point)
+      return new mapboxgl.Marker(el)
+        .setLngLat({ lat: point.coordinates[0], lng: point.coordinates[1] })
         .addTo(this.map)
+
+
+
     })
+    this.map.addControl(new mapboxgl.NavigationControl())
+
   }
+
 
   render() {
     return (
@@ -43,6 +46,7 @@ class Map extends React.Component {
     )
   }
 }
+
 
 
 

@@ -10,7 +10,7 @@ class Places extends React.Component {
     super()
 
     this.state = { points: null }
-    this.mapCenter = { lat: 51.515, lng: -0.078 }
+    this.mapCenter = { lat: 0.515, lng: 60 }
 
   }
 

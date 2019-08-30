@@ -25,37 +25,40 @@ class NavBar extends React.Component {
 
   render() {
     return (
-      <section>
-        <nav className="navbar cream" role="navigation" aria-label="main navigation">
-          <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+
+
+        <nav className="navbar cream navbar is-fixed-top" role="navigation" aria-label="main navigation">
+          <div id="navbarBasicExample" className="navbar-menu">
+          <div className="navbar-item">
+            <Link to="/" className="navbar-item"><strong>Kasia Wypychewicz</strong></Link>
+          </div>
+            </div>
+
+          <a role="button" className={`navbar-burger ${this.state.navbarOpen ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" onClick={this.toggleNavbar}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
 
-
-          <div id="navbarBasicExample" className="navbar-menu">
-          <div className="navbar-item">
-            <Link to="/" className="navbar-item"><strong>Kasia Wypychewicz</strong></Link>
-          </div>
-
-            <div className="navbar-end">
-              <div className="navbar-item">
-                <Link to="/about" className="navbar-item">About</Link>
-              </div>
-              <div className="navbar-item">
-                <Link to="/projects" className="navbar-item">Projects</Link>
-              </div>
-              <div className="navbar-item">
-                <Link to="/map" className="navbar-item">Map</Link>
-              </div>
-
-
-
+          <div className="navbar-end">
+            <div className="navbar-item">
+              <Link to="/about" className="navbar-item">About</Link>
             </div>
+            <div className="navbar-item">
+              <Link to="/projects" className="navbar-item">Projects</Link>
+            </div>
+            <div className="navbar-item">
+              <Link to="/map" className="navbar-item">Map</Link>
+                <a  href="https://github.com/kasiaaguti/" id="github-icon" target="_blank"></a>
+                <a  href="https://www.linkedin.com/in/kasia-wypychewicz/" id="liknedin-icon" target="_blank"></a>
+            </div>
+
+
+
           </div>
         </nav>
-      </section>
+
+
 
 
 

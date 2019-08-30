@@ -16,22 +16,42 @@ class Map extends React.Component {
   componentDidMount() {
     this.map = new mapboxgl.Map({
       container: this.mapDiv,
-      style: 'mapbox://styles/mapbox/streets-v10',
+      style: 'mapbox://styles/mapbox/light-v10',
       center: this.props.center,
-      zoom: 1
+      zoom: 1.5
     })
+       this.map.scrollZoom.disable()
     this.markers.forEach(marker => marker.remove())
     this.markers = this.props.markers.map(point => {
       // create custom popups one for each marker
       const el = document.createElement('div')
       el.className = 'marker'
-      el.textContent='HELLO'
+
+
+
+
 
       // console.log(point)
       return new mapboxgl.Marker(el)
         .setLngLat({ lat: point.coordinates[0], lng: point.coordinates[1] })
         .addTo(this.map)
 
+
+                .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+                  .setHTML(`
+                    <div>
+                      <div>
+                      <h3>${point.name}</h3>
+
+                        <button><a href=${point.website} target="_blank" rel="noopener noreferrer">Go to the album</a> </button>
+
+                      <div style="background-image: url('${point.photo}'); height: 100px; min-width: 150px; background-repeat: no-repeat; background-size: cover; background-position: center;"> </div>
+
+
+
+
+                  `))
+                .addTo(this.map)
 
 
     })
@@ -42,7 +62,7 @@ class Map extends React.Component {
 
   render() {
     return (
-      <div className="map" ref={el => this.mapDiv = el}/>
+            <div className="map" ref={el => this.mapDiv = el}/>
     )
   }
 }

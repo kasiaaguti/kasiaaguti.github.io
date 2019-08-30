@@ -2,10 +2,10 @@ import React from 'react'
 
 
 const Projects = () => (
-  <section className="background aboutbody">
-    <div className="tile is-ancestor margins">
+  <section className="background">
+    <div className="tile is-ancestor projectsbody">
 
-      <div className="tile is-parent is-5">
+      <div className="tile is-parent is-6">
         <article className="tile is-child notification lightblue">
           <div className="content">
             <p className="title">Powerengineering Hub</p>
@@ -44,7 +44,7 @@ const Projects = () => (
         </article>
       </div>
 
-      <div className="tile is-parent is-5">
+      <div className="tile is-parent is-6">
         <article className="tile is-child notification lightblue">
           <div className="content">
             <p className="title">Just fur Them</p>
@@ -93,9 +93,9 @@ const Projects = () => (
     </div>
 
 
-    <div className="tile is-ancestor margins">
+    <div className="tile is-ancestor projectsbody">
 
-      <div className="tile is-parent is-5">
+      <div className="tile is-parent is-6">
         <article className="tile is-child notification lightblue">
           <div className="content">
             <p className="title">Digital Nomad Hub</p>
@@ -137,7 +137,7 @@ several components (classical and functional). Using router. Pair programming. <
         </article>
       </div>
 
-      <div className="tile is-parent is-5">
+      <div className="tile is-parent is-6">
         <article className="tile is-child notification lightblue">
           <div className="content">
             <p className="title">Tetris</p>

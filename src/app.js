@@ -11,6 +11,7 @@ import NavBar from './components/NavBar'
 import About from './components/About'
 import Projects from './components/Projects'
 import Places from './components/Places'
+import Contact from './components/Contact'
 
 
 
@@ -24,7 +25,8 @@ const App = () => {
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
-        <Route path="/map" component={Places} />
+         <Route path="/map" component={Places} />
+       <Route path="/contact" component={Contact} />
 
         </Switch>
       </main>

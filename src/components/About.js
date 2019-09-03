@@ -1,122 +1,103 @@
 import React from 'react'
 
-import Places from './Places'
-import Projects from './Projects'
 
-const About = () => (
-
-  <section className="background">
-
-    <section className="mepage">
-
-      <div className="mecontainer">
-
-          <figure className="image myimg">
-            <img src="../assets/kasia.jpg" />
-          </figure>
-
-          <div className="metext">
-            <p className="title titlemetext">Kasia Wypychewicz</p>
-              <p className="subtitle subtitlemetext">Junior software engineer with business background. Passionate about technology, including JavaScript, Python and SQL. Looking to join a group of like-minded individuals and work on impactful and exciting projects.</p>
-
-<div className="contact"><img src="../assets/post.png"  id="email"/> <p  className="subtitle subtitlemetext">kasia.aguti@gmail.com</p></div>
+const Home = () => (
 
 
+  <section className="page">
+    <section className="about">
+      <div className="tile is-ancestor aboutbody about">
+        <div className="tile is-vertical is-8">
+          <div className="tile titlemetext">
+            <div className="tile is-parent is-vertical">
+              <article className="tile is-child box oragne">
+                <p className="title abouttext ">I founded a vegan cafe</p>
+                <div className="content abouttext ">
+                  <p>I created abundantly green, garden-like setting in our pop-up cafe on Brick Lane, London. It was all about nuts and plant-based milks. We squeezeed them daily on site from 15 kinds of nuts & grains to base our lattes, smoothies and all our healthy food on them.</p>
+                </div>
+                <figure className="image tileimghor">
+                  <img src="../assets/cafe.jpg" />
+                </figure>
+              </article>
 
-
-
-
-          </div>
-
-      </div>
-
-    </section>
-
-<h1 className="title is-1 navytitle">My projects</h1>
-<Projects  />
-
-<h1 className="title is-1 navytitle">About me</h1>
-  <section className="about">
-    <div className="tile is-ancestor aboutbody">
-
-      <div className="tile is-parent">
-        <article className="tile is-child notification construction">
-
-            <p className="title">I ran a construction company</p>
-            <p className="subtitle">I set up a company that delivered windows and doors to big consutruction sites in London. Including things like 300m2 aluminium curtain walling! That was a challenge.</p>
-            <figure className="image tileimg">
-              <img src="../assets/construction.jpeg" />
-            </figure>
-            <div className="content">
 
             </div>
-
-        </article>
-
-      </div>
-
-
-
-      <div className="tile is-vertical is-8">
-        <div className="tile">
-          <div className="tile is-parent is-vertical">
-            <article className="tile is-child notification cafe">
-              <p className="title">I founded a vegan cafe</p>
-              <p className="subtitle">
- We created abundantly green, garden-like setting in our pop-up cafe on Brick Lane, London. It was all about nuts and plant-based milks. We squeezeed them daily on site from 15 kinds of nuts & grains to base our lattes, smoothies and all our healthy food on them.
-</p>
-              <figure className="image tileimg">
-                <img src="../assets/cafe.jpg" / >
-              </figure>
-            </article>
-
-            <article className="tile is-child notification learn">
-              <p className="title">I love to learn </p>
-              <p className="subtitle">My first degree was in Philosophy. I graduated with MSc in Asian Poltics from SOAS and MSc in Management, Organisations and Governance from LSE. </p>
-              <figure className="image tileimg">
-                <img src="../assets/lse.jpg" />
-              </figure>
-            </article>
+            <div className="tile is-parent">
+              <article className="tile is-child box green">
+                <p className="title abouttext ">I ran a construction company</p>
+                <div className="content abouttext ">
+                  <p>I set up a company that delivered windows and doors to big consutruction sites in London. Including things like 300m2 aluminium curtain walling! That was a challenge.</p>
+                </div>
+                <figure className="image tileimgver">
+                  <img src="../assets/construction.jpeg" />
+                </figure>
+              </article>
+            </div>
           </div>
+
 
           <div className="tile is-parent">
-            <article className="tile is-child notification lightblue">
-              <p className="title">I travelled the world</p>
-              <p className="subtitle"> I'm curious about various cultures & ideas. Focused on exploring South Asia, open for getting to know other parts of the world. I speak Polish and Spanish, learn Hindi and Japanese.</p>
-<p className="subtitle">
-                My camera and I visted almost 40 countries. Have a look!</p>
-              <figure className="image tileimg">
-                <img src="../assets/travel.jpg" / >
-              </figure>
+            <article className="tile is-child notification lightorange columns">
+
+              <div className="column">
+                <p className="title abouttext ">I love to learn</p>
+                <div className="content abouttext ">
+                  <p>My first degree was in Philosophy. I graduated with MSc in Asian Poltics from SOAS and MSc in Management, Organisations and Governance from LSE.</p>
+                </div>
+
+              </div>
+              <div className="column">
+                <figure className="image tileimghor">
+                  <img src="../assets/lse.jpg" />
+                </figure>
+              </div>
             </article>
           </div>
-
 
         </div>
 
-        <div className="tile is-parent">
-                  <article className="tile is-child notification cafe">
-                    <p className="title">I'm a board member</p>
-                    <p className="subtitle">I evaluate reports and financial statements monthly for ZPUE. That is a power engineering company
-– listed on the Warsaw Stock Exchange, employs 2,800 people, generates £130mn of annual revenue.
-</p>
-                    <div className="content">
 
-                    </div>
-                  </article>
-                </div>
+        <div className="tile is-parent">
+          <article className="tile is-child box lightblue">
+            <div className="content">
+              <p className="title abouttext">I&apos;m a board member</p>
+              <div className="content abouttext">
+                <p>I evaluate reports and financial statements monthly for ZPUE. That is a power engineering company
+– listed on the Warsaw Stock Exchange, employs 2,800 people, generates £130mn of annual revenue.</p>
+                <figure className="image tileimgver">
+                  <img src="../assets/office.jpg" />
+                </figure>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
 
-    </div>
+      <div className="tile is-ancestor aboutbody2">
+        <div className="tile is-parent">
+          <article className="tile is-child box lightblue columns">
+            <div className="column">
+              <figure className="image tileimghor">
+                <img src="../assets/travel.jpg" />
+              </figure>
+            </div>
+            <div className="column">
+              <p className="title abouttext">I travelled the world</p>
+              <div className="content abouttext">
+                <p > I&apos;m curious about various cultures & ideas. Focused on exploring South Asia, open for getting to know other parts of the world. I speak Polish and Spanish, learn Hindi and Japanese.</p>
+                <p>
+            My camera and I visted almost 40 countries. Have a look!</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-  </section>
-
-<h1 className="title is-1 navytitle">My travels</h1>
-<Places />
-
+    
   </section>
 )
 
 
 
-export default About
+export default Home

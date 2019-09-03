@@ -39,13 +39,15 @@ class Map extends React.Component {
 
                 .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
                   .setHTML(`
-                    <div>
+                    <div class="popup">
                       <div>
-                      <h3>${point.name}</h3>
+                      <h1 class="title is-4 popuptitle">${point.name}</h1>
 
-                        <button><a href=${point.website} target="_blank" rel="noopener noreferrer">Go to the album</a> </button>
+                        <button class="popupbutton"><a class="alink" href=${point.website} target="_blank" rel="noopener noreferrer">Go to this album</a> </button>
 
-                      <div style="background-image: url('${point.photo}'); height: 100px; min-width: 150px; background-repeat: no-repeat; background-size: cover; background-position: center;"> </div>
+                        <button class="popupbutton"><a class="alink" href="https://flickr.com/photos/183755392@N05/albums" target="_blank" rel="noopener noreferrer">Go to the albums list</a> </button>
+
+                      <div style="background-image: url('${point.photo}'); height: 150px; min-width: 200px; background-repeat: no-repeat; background-size: cover; background-position: center;"> </div>
 
 
 

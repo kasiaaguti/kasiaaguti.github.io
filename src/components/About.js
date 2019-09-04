@@ -13,7 +13,7 @@ const Home = () => (
               <article className="tile is-child box oragne">
                 <p className="title abouttext ">I founded a vegan cafe</p>
                 <div className="content abouttext ">
-                  <p>I created abundantly green, garden-like setting in our pop-up cafe on Brick Lane, London. It was all about nuts and plant-based milks. We squeezeed them daily on site from 15 kinds of nuts & grains to base our lattes, smoothies and all our healthy food on them.</p>
+                  <p>I created an abundantly green, garden-like setting in our pop-up cafe on Brick Lane, London. It was all about nuts and plant-based milks. We squeezeed them daily on site from 15 varieties of nuts & grains to base our lattes, smoothies and all our healthy food on them.</p>
                 </div>
                 <figure className="image tileimghor">
                   <img src="../assets/cafe.jpg" />
@@ -62,8 +62,7 @@ const Home = () => (
             <div className="content">
               <p className="title abouttext">I&apos;m a board member</p>
               <div className="content abouttext">
-                <p>I evaluate reports and financial statements monthly for ZPUE. That is a power engineering company
-– listed on the Warsaw Stock Exchange, employs 2,800 people, generates £130mn of annual revenue.</p>
+                <p>I review reports and financial statements for ZPUE on a monthly basis. ZPUE is a power engineering company. It is listed on the Warsaw Stock Exchange, employs 2,800 people and generates £130mn+ of annual revenue.</p>
                 <figure className="image tileimgver">
                   <img src="../assets/office.jpg" />
                 </figure>
@@ -94,7 +93,7 @@ const Home = () => (
       </div>
     </section>
 
-    
+
   </section>
 )
 

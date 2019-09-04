@@ -19,19 +19,19 @@ class Home extends React.Component {
     <Contact />
 
 <ScrollableAnchor id={'projects'}>
-<h1 className="title is-1 navytitle" id="contact">My projects</h1>
+<h1 className="title is-1 navytitle" id="projects">My projects</h1>
  </ScrollableAnchor>
 <Projects  />
 
 <ScrollableAnchor id={'about'}>
-<h1 className="title is-1 navytitle" id="home">About me</h1>
+<h1 className="title is-1 navytitle" id="about">About me</h1>
  </ScrollableAnchor>
 <About />
 
 
 
  <ScrollableAnchor id={'places'}>
-<h1 className="title is-1 navytitle" id="about">My travels</h1>
+<h1 className="title is-1 navytitle" id="places">My travels</h1>
  </ScrollableAnchor>
 <Places />
 

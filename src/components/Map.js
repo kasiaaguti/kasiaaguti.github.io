@@ -1,7 +1,7 @@
 import React from 'react'
 import mapboxgl from 'mapbox-gl'
 
-mapboxgl.accessToken = process.env.MAPBOX_ACCESS_TOKEN
+mapboxgl.accessToken = process.env.MAPBOX
 
 
 

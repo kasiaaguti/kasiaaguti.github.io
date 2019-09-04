@@ -45,7 +45,7 @@ module.exports = {
     ]),
     // new Dotenv(),
     new webpack.DefinePlugin({
-      'process.env.MAPBOX_TOKEN': JSON.stringify(process.env.MAPBOX_ACCESS_TOKEN)
+      'process.env.MAPBOX': JSON.stringify(process.env.MAPBOX)
     })
 
   ]

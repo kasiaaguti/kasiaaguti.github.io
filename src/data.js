@@ -138,6 +138,17 @@ const data  =   [
     "coordinates": [
     46.50, 29.38
   ]},
+  {"name": "Bosnia and Herzegovina",
+  "website": "https://www.flickr.com/photos/183755392@N05/albums/72157710691513577",
+  "photo" : "https://live.staticflickr.com/65535/48678342211_89ff70ab63_z.jpg",
+    "coordinates": [
+    43.9159, 17.6791
+  ]},
+  {"name": "Montenegro",
+  "website": "https://www.flickr.com/photos/183755392@N05/albums/72157710690255233",
+  "photo" : "https://live.staticflickr.com/65535/48678456651_6f21c22fa8_z.jpg", "coordinates": [
+    42.7087, 19.3744
+  ]},
 
 
 

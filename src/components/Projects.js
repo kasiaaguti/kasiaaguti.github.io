@@ -37,9 +37,9 @@ const Projects = () => (
               <p className="title is-4">Key learnings</p>
               <p> Building a functioning full-stack app with PostgreSQL, Python and FLask where requests can successfully display information on the front end (read) and data can be created/updated/deleted on the back end </p>
             <div className="buttons">
-              <button className="projectbutton">  <a className="projectlink" href="https://powerengineering.herokuapp.com" target="_blank" rel="noopener noreferrer">See this website in action</a> </button>
+              <button className="projectbutton">  <a className="projectlink" href="https://powerengineering.herokuapp.com" target="_blank" rel="noopener noreferrer">Website in action</a> </button>
 
-              <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-project-4" target="_blank" rel="noopener noreferrer">Check out details in my readme</a> </button>
+              <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-project-4" target="_blank" rel="noopener noreferrer">ReadMore in ReadMe </a> </button>
           </div>
             </div>
           </div>
@@ -84,8 +84,8 @@ const Projects = () => (
 
   <p> Working with Github on a group project.</p>
 <div className="buttons">
-<button className="projectbutton">   <a className="projectlink" href="https://just-fur-them.herokuapp.com/" target="_blank" rel="noopener noreferrer">See this website in action</a> </button>
-              <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-41-PROJECT-3" target="_blank" rel="noopener noreferrer">Check out details in my readme</a> </button>
+<button className="projectbutton">   <a className="projectlink" href="https://just-fur-them.herokuapp.com/" target="_blank" rel="noopener noreferrer">Website in action</a> </button>
+              <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-41-PROJECT-3" target="_blank" rel="noopener noreferrer">ReadMore in ReadMe </a> </button>
           </div>
             </div>
           </div>
@@ -131,9 +131,9 @@ const Projects = () => (
               <p> Building a React application that consumes a public API with
 several components (classical and functional). Using router. Pair programming. </p>
 <div className="buttons">
-              <button className="projectbutton">   <a className="projectlink" href="http://digital-nomad-ga.herokuapp.com/ ​" target="_blank" rel="noopener noreferrer">See this website in action</a> </button>
+              <button className="projectbutton">   <a className="projectlink" href="http://digital-nomad-ga.herokuapp.com/ ​" target="_blank" rel="noopener noreferrer">Website in action</a> </button>
 
-              <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-project2-" target="_blank" rel="noopener noreferrer">Check out details in my readme</a> </button>
+              <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-project2-" target="_blank" rel="noopener noreferrer">ReadMore in ReadMe </a> </button>
           </div>
             </div>
           </div>
@@ -171,10 +171,10 @@ The aim of the game is to get as many points as possible before the game board i
                 <p> The larges challenge was the rotation of the Tetriminos. Each one rotates around a specific point on its axis.</p>
 <div className="buttons">
 
-              <button className="projectbutton">   <a className="projectlink" href=" https://kasiaaguti.github.io/sei-project-1/" target="_blank" rel="noopener noreferrer">See this website in action</a> </button>
+              <button className="projectbutton">   <a className="projectlink" href=" https://kasiaaguti.github.io/sei-project-1/" target="_blank" rel="noopener noreferrer">Play Tetris</a> </button>
               <br />
               <br />
-            <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/sei-project-1" target="_blank" rel="noopener noreferrer">Check out details in my readme</a> </button>
+            <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/sei-project-1" target="_blank" rel="noopener noreferrer">ReadMore in ReadMe </a> </button>
         </div>
             </div>
           </div>

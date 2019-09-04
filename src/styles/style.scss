@@ -152,9 +152,11 @@ background-color: #EFE7DC;
       border-radius: 3px;
     }
     &:visited {
-    background-color: #9BC0D6;
-    border-radius: 3px;
+      background-color: #EFE7DC;
+      border-radius: 3px;
+
     }
+
   }
 }
 
@@ -222,8 +224,8 @@ padding-top: 90px;
 // me
 .mepage {
 background-color: #EFE7DC;
-padding-top: 150px;
-padding-bottom: 150px;
+padding-top: 10%;
+padding-bottom: 15%;
 }
 
 .mepadding {

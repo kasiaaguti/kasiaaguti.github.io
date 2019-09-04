@@ -132,6 +132,12 @@ const data  =   [
     "coordinates": [
     22.3193, 114.1694
   ]},
+  {"name": "Transnistria",
+  "website": "https://www.flickr.com/photos/183755392@N05/albums/72157710690673491",
+  "photo" : "https://live.staticflickr.com/65535/48677833233_654e90a10d_z.jpg",
+    "coordinates": [
+    46.50, 29.38
+  ]},
 
 
 

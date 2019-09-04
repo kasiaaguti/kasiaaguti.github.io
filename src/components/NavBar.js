@@ -38,7 +38,9 @@ class NavBar extends React.Component {
               <nav className="navbar cream navbar is-fixed-top">
 
                 <div className="navbar-brand">
+                    <a  href="#contact" id="logo" target="_blank"></a>
 
+                
 
                 <a role="button" className={`navbar-burger ${this.state.navbarOpen ? 'is-active' : ''}`} aria-label="menu" aria-expanded="false" onClick={this.toggleNavbar}>
                   <span aria-hidden="true"></span>

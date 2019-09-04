@@ -61,7 +61,7 @@ border-radius: 4px;
 .navytitle {
   color: #101929;
   padding-left: 60px;
-  padding-top: 60px;
+  padding-top: 120px;
 
 }
 
@@ -147,15 +147,16 @@ background-color: #EFE7DC;
   margin-bottom: 500px;
   a.navbar-item {
     color: #101929;
-    &:hover {
-      background-color: #9BC0D6;
-      border-radius: 3px;
-    }
     &:visited {
       background-color: #EFE7DC;
       border-radius: 3px;
 
     }
+    &:hover {
+      background-color: #9BC0D6;
+      border-radius: 3px;
+    }
+
 
   }
 }
@@ -225,7 +226,7 @@ padding-top: 90px;
 .mepage {
 background-color: #EFE7DC;
 padding-top: 10%;
-padding-bottom: 15%;
+padding-bottom: 10%;
 }
 
 .mepadding {
@@ -278,7 +279,8 @@ padding-bottom: 15%;
     width: 50px;
     height: 50px;
     display: inline-block;
-    margin: 10px 15px;
+      margin-top: 20px;
+      margin-right: 20px;
     &:hover {
       border-radius: 3px;
       border: solid 1px #9BC0D6
@@ -294,13 +296,25 @@ padding-bottom: 15%;
   width: 50px;
   height: 50px;
   display: inline-block;
-  margin: 10px 15px;
+  margin-top: 20px;
+  margin-right: 60px;
   &:hover {
 
     border-radius: 3px;
       border: solid 1px #9BC0D6
   }
 
+}
+
+#logo {
+background-image: url('../assets/logo.png');
+background-size: cover;
+display: inline-block;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 60px;
+width: 300px;
+height: 74px;
 }
 
 
@@ -347,6 +361,16 @@ padding-bottom: 15%;
         border-radius: 3px;
       }
     }
+  }
+
+  #logo {
+margin-left: 24px;
+margin-top: 10px;
+  }
+
+  #github-icon {
+  margin-left: 24px;
+
   }
 
 

@@ -63,10 +63,10 @@ const Home = () => (
               <p className="title abouttext">I&apos;m a board member</p>
               <div className="content abouttext">
                 <p>I review reports and financial statements for ZPUE on a monthly basis. ZPUE is a power engineering company. It is listed on the Warsaw Stock Exchange, employs 2,800 people and generates £130mn+ of annual revenue.</p>
+                </div>
                 <figure className="image tileimgver">
                   <img src="../assets/office.jpg" />
                 </figure>
-              </div>
             </div>
           </article>
         </div>

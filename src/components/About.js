@@ -85,7 +85,7 @@ const Home = () => (
               <div className="content abouttext">
                 <p > I&apos;m curious about various cultures & ideas. Focused on exploring South Asia, open for getting to know other parts of the world. I speak Polish and Spanish, learn Hindi and Japanese.</p>
                 <p>
-            My camera and I visted almost 40 countries. Have a look!</p>
+            My camera and I visted almost 40 countries. Have a look at my <a href="https://www.flickr.com/photos/183755392@N05/albums">photo gallery</a> or go directly to albums from a map below!</p>
               </div>
             </div>
           </article>

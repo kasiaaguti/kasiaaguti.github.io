@@ -126,6 +126,10 @@ border-radius: 4px;
 
 
 
+.is-ancestor {
+  display: inline-block;
+  // width: 300px;
+}
 
 
 
@@ -308,6 +312,8 @@ margin-left: 60px;
 width: 300px;
 height: 74px;
 }
+
+
 
 
 @media only screen and (max-width: 780px) {
@@ -526,7 +532,7 @@ height: 74px;
 
 
   .is-ancestor {
-    display: inline;
+    display: inline-block;
     // width: 300px;
   }
 
@@ -566,12 +572,12 @@ margin-top: 0px;
   // }
     /* right: 0; */
   //
-  #logo {
-
-  padding-right: 230px;
-
-
-  }
+  // #logo {
+  //
+  // padding-right: 230px;
+  //
+  //
+  // }
 
 
 }

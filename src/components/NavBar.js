@@ -34,7 +34,6 @@ class NavBar extends React.Component {
     return (
 
 
-
       <nav className="navbar cream is-fixed-top">
 
         <div className="navbar-brand">

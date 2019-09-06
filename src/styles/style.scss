@@ -525,7 +525,10 @@ height: 74px;
   }
 
 
-
+  .is-ancestor {
+    display: inline;
+    // width: 300px;
+  }
 
 #logo {
 width: 350px;
@@ -563,12 +566,12 @@ margin-top: 0px;
   // }
     /* right: 0; */
   //
-  // #logo {
-  //
-  // width: 350px;
-  //
-  //
-  // }
+  #logo {
+
+  padding-right: 230px;
+
+
+  }
 
 
 }

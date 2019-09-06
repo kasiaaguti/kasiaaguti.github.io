@@ -35,7 +35,7 @@ class NavBar extends React.Component {
 
 
 
-      <nav className="navbar cream navbar is-fixed-top">
+      <nav className="navbar cream is-fixed-top">
 
         <div className="navbar-brand">
           <a  href="#contact" id="logo" target="_blank"></a>

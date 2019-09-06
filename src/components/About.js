@@ -6,7 +6,7 @@ const Home = () => (
 
   <section className="page">
     <section className="about">
-      <div className="tile is-ancestor aboutbody about">
+      <div className="tile is-ancestor aboutbody">
         <div className="tile is-vertical is-8">
           <div className="tile titlemetext">
             <div className="tile is-parent is-vertical">

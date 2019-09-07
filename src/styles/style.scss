@@ -584,6 +584,16 @@ height: 74px;
     padding-right: 0px;
   }
 
+  .projectdiv {
+
+    border: solid 1px #101929;
+
+    &:hover {
+      background-color:  #EFE7DC;
+      border-radius: 4px;
+    }
+  }
+
   .visits {
     display: flex;
     justify-content:space-between;

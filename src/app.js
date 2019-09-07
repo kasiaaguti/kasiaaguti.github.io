@@ -20,7 +20,7 @@ import Contact from './components/Contact'
 const App = () => {
   return (
 
-      <main>
+      <main className="has-navbar-fixed-top">
         <NavBar />
       <Home />
 

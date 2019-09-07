@@ -422,7 +422,6 @@ height: 74px;
     padding-left: 0px;
     padding-right: 0px;
 
-
   }
 
   .aboutbody2 {
@@ -531,10 +530,11 @@ height: 74px;
   }
 
 
-  .is-ancestor {
-    display: inline-block;
-    // width: 300px;
-  }
+.tile.is-ancestor {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 #logo {
 width: 350px;

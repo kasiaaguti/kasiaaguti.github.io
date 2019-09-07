@@ -314,7 +314,14 @@ height: 74px;
 }
 
 
+@media only screen and (max-width: 1025px) {
+  .tile.is-ancestor {
 
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}
 
 @media only screen and (max-width: 780px) {
 

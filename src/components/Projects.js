@@ -9,17 +9,17 @@ const Projects = () => (
         <article className="tile is-child notification lightblue">
           <div className="content">
             <p className="title">Powerengineering Hub</p>
-            <button className="skills">Python</button>
-            <button className="skills">PostgreSQL</button>
-            <button className="skills">Flask</button>
-            <button className="skills">Insomnia</button>
-            <button className="skills">React</button>
-            <button className="skills">Axios</button>
-            <button className="skills">Webpack</button>
-            <button className="skills">HTML5</button>
-            <button className="skills">CSS</button>
-            <button className="skills">Bulma</button>
-            <button className="skills">Heroku</button>
+            <div className="skills">Python</div>
+            <div className="skills">PostgreSQL</div>
+            <div className="skills">Flask</div>
+            <div className="skills">Insomnia</div>
+            <div className="skills">React</div>
+            <div className="skills">Axios</div>
+            <div className="skills">Webpack</div>
+            <div className="skills">HTML5</div>
+            <div className="skills">CSS</div>
+            <div className="skills">Bulma</div>
+            <div className="skills">Heroku</div>
 
             <figure className="image tileimg">
               <img src="../assets/power.png" alt="Screenshot of the project's homepage" />
@@ -36,10 +36,10 @@ const Projects = () => (
 
               <p className="title is-4">Key learnings</p>
               <p> Building a functioning full-stack app with PostgreSQL, Python and Flask where requests can successfully display information on the front end (read) and data can be created/updated/deleted on the back end. </p>
-              <div className="buttons">
-                <button className="projectbutton">  <a className="projectlink" href="https://powerengineering.herokuapp.com" target="_blank" rel="noopener noreferrer">Website in action</a> </button>
+              <div className="visits">
+                <div className="projectdiv">  <a className="projectlink" href="https://powerengineering.herokuapp.com" target="_blank" rel="noopener noreferrer">Website in action</a> </div>
 
-                <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-project-4" target="_blank" rel="noopener noreferrer">Readme </a> </button>
+                <div className="projectdiv">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-project-4" target="_blank" rel="noopener noreferrer">Readme </a> </div>
               </div>
             </div>
           </div>
@@ -50,20 +50,20 @@ const Projects = () => (
         <article className="tile is-child notification lightblue">
           <div className="content">
             <p className="title">Just fur Them</p>
-            <button className="skills">MongoDB</button>
-            <button className="skills">Mongoose</button>
-            <button className="skills">Express</button>
-            <button className="skills">NodeJS</button>
-            <button className="skills">Axios</button>
-            <button className="skills">Insomnia</button>
-            <button className="skills">React</button>
-            <button className="skills">Webpack</button>
-            <button className="skills">HTML5</button>
-            <button className="skills">CSS</button>
-            <button className="skills">Bulma</button>
-            <button className="skills">Mocha</button>
-            <button className="skills">Chai</button>
-            <button className="skills">Heroku</button>
+            <div className="skills">MongoDB</div>
+            <div className="skills">Mongoose</div>
+            <div className="skills">Express</div>
+            <div className="skills">NodeJS</div>
+            <div className="skills">Axios</div>
+            <div className="skills">Insomnia</div>
+            <div className="skills">React</div>
+            <div className="skills">Webpack</div>
+            <div className="skills">HTML5</div>
+            <div className="skills">CSS</div>
+            <div className="skills">Bulma</div>
+            <div className="skills">Mocha</div>
+            <div className="skills">Chai</div>
+            <div className="skills">Heroku</div>
 
 
             <figure className="image tileimg">
@@ -83,9 +83,9 @@ const Projects = () => (
               <p> Building a functioning full-stack app with MongoDB, Mongoose and NodeJS where requests can successfully display information on the front end (read) and data can be created/updated/deleted on the back end.</p>
 
               <p> Working with Github on a group project.</p>
-              <div className="buttons">
-                <button className="projectbutton">   <a className="projectlink" href="https://just-fur-them.herokuapp.com/" target="_blank" rel="noopener noreferrer">Website in action</a> </button>
-                <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-41-PROJECT-3" target="_blank" rel="noopener noreferrer">Readme </a> </button>
+              <div className="visits">
+                <div className="projectdiv">   <a className="projectlink" href="https://just-fur-them.herokuapp.com/" target="_blank" rel="noopener noreferrer">Website in action</a> </div>
+                <div className="projectdiv">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-41-PROJECT-3" target="_blank" rel="noopener noreferrer">Readme </a> </div>
               </div>
             </div>
           </div>
@@ -101,17 +101,17 @@ const Projects = () => (
         <article className="tile is-child notification lightblue">
           <div className="content">
             <p className="title">Digital Nomad Hub</p>
-            <button className="skills">React</button>
-            <button className="skills">Insomnia</button>
-            <button className="skills">React</button>
-            <button className="skills">Express</button>
-            <button className="skills">NodeJS</button>
-            <button className="skills">Axios</button>
-            <button className="skills">Webpack</button>
-            <button className="skills">HTML5</button>
-            <button className="skills">CSS</button>
-            <button className="skills">Bulma</button>
-            <button className="skills">Heroku</button>
+            <div className="skills">React</div>
+            <div className="skills">Insomnia</div>
+            <div className="skills">React</div>
+            <div className="skills">Express</div>
+            <div className="skills">NodeJS</div>
+            <div className="skills">Axios</div>
+            <div className="skills">Webpack</div>
+            <div className="skills">HTML5</div>
+            <div className="skills">CSS</div>
+            <div className="skills">Bulma</div>
+            <div className="skills">Heroku</div>
 
             <figure className="image tileimg">
               <img src="../assets/dn.png" alt="Screenshot of the project's homepage. A girl sitting with her laptop and looking at the mountain landscape"/>
@@ -130,10 +130,10 @@ const Projects = () => (
               <p className="title is-4">Key learnings</p>
               <p> Building a React application that utilises a public API with
 several components (classical and functional). Using router. Pair programming. </p>
-              <div className="buttons">
-                <button className="projectbutton">   <a className="projectlink" href="http://digital-nomad-ga.herokuapp.com/map" target="_blank" rel="noopener noreferrer">Website in action</a> </button>
+              <div className="visits">
+                <div className="projectdiv">   <a className="projectlink" href="http://digital-nomad-ga.herokuapp.com/map" target="_blank" rel="noopener noreferrer">Website in action</a> </div>
 
-                <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-project2-" target="_blank" rel="noopener noreferrer">Readme </a> </button>
+                <div className="projectdiv">  <a className="projectlink" href="https://github.com/kasiaaguti/SEI-project2-" target="_blank" rel="noopener noreferrer">Readme </a> </div>
               </div>
             </div>
           </div>
@@ -144,9 +144,9 @@ several components (classical and functional). Using router. Pair programming. <
         <article className="tile is-child notification lightblue">
           <div className="content">
             <p className="title">Tetris</p>
-            <button className="skills">JavaScript</button>
-            <button className="skills">HTML5</button>
-            <button className="skills">CSS</button>
+            <div className="skills">JavaScript</div>
+            <div className="skills">HTML5</div>
+            <div className="skills">CSS</div>
 
 
 
@@ -169,12 +169,12 @@ The aim of the game is to get as many points as possible before the game board i
               <p className="title is-4">Key learnings</p>
               <p> Built a fully functional game thereafter. Practised how to think like a developer based on what we learned in weeks 1-3 of the General Assembly course.</p>
               <p> The biggest challenge was the rotation of the Tetrominos. Each one rotates around a specific point on its axis.</p>
-              <div className="buttons">
+              <div className="visits">
 
-                <button className="projectbutton">   <a className="projectlink" href=" https://kasiaaguti.github.io/sei-project-1/" target="_blank" rel="noopener noreferrer">Play Tetris</a> </button>
+                <div className="projectdiv">   <a className="projectlink" href=" https://kasiaaguti.github.io/sei-project-1/" target="_blank" rel="noopener noreferrer">Play Tetris</a> </div>
                 <br />
                 <br />
-                <button className="projectbutton">  <a className="projectlink" href="https://github.com/kasiaaguti/sei-project-1" target="_blank" rel="noopener noreferrer">Readme </a> </button>
+                <div className="projectdiv">  <a className="projectlink" href="https://github.com/kasiaaguti/sei-project-1" target="_blank" rel="noopener noreferrer">Readme </a> </div>
               </div>
             </div>
           </div>

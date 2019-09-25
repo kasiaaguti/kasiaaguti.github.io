@@ -149,6 +149,12 @@ const data  =   [
   "photo" : "https://live.staticflickr.com/65535/48678456651_6f21c22fa8_z.jpg", "coordinates": [
     42.7087, 19.3744
   ]},
+  {"name": "Iceland",
+  "website": "https://www.flickr.com/photos/183755392@N05/albums/72157711063599172/with/48795344901/",
+  "photo" : "https://live.staticflickr.com/65535/48795344901_3c08efbeb0_z.jpg",
+  "coordinates": [
+    64.9631, 19.0208
+  ]},
 
 
 

@@ -16,7 +16,7 @@ const Contact = () => (
           </div>
           <div className="column is-8">
             <p className="title titlemetext">Kasia Wypychewicz</p>
-            <p className="subtitle subtitlemetext">Junior software engineer with business background. Passionate about technology, including JavaScript, ReactJS, Python and SQL. Looking to join a group of like-minded individuals and work on impactful and exciting projects.</p>
+            <p className="subtitle subtitlemetext">Driven and enthusiastic software engineer with business background. Experienced launching new cross-border ventures across industries. Passionate about technology, including JavaScript, Python and SQL.</p>
             <div className="contact"><img src="../assets/post.png"  id="email"/> <p  className="subtitle subtitlemetext">kasia.aguti@gmail.com</p></div>
 
           </div>

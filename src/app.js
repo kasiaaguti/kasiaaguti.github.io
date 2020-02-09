@@ -10,10 +10,10 @@ import './styles/style.scss'
 
 import Home from './components/Home'
 import NavBar from './components/NavBar'
-import About from './components/About'
 import Projects from './components/Projects'
 import Places from './components/Places'
 import Contact from './components/Contact'
+import About from './components/About'
 
 
 

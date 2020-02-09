@@ -31,7 +31,7 @@ class Home extends React.Component {
 
 
         <ScrollableAnchor id={'places'}>
-          <h1 className="title is-1 navytitle" id="places">My travels</h1>
+          <h1 className="title is-1 navytitle">My travels</h1>
         </ScrollableAnchor>
         <Places />
 
